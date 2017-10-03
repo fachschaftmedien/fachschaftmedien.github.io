@@ -17,10 +17,10 @@ $(function(){
     function createRepoCard(repo){
         return $(
             '<div class=card> ' +
-            '<div class="card-header row">' +
+            '<div class="card-header">' +
                 repo.name.toUpperCase() +
             '</div>' +
-            '<div class="card-body row">' +
+            '<div class="card-body">' +
                 repo.description +
             '</div>' +
             '<div class="card-footer row">' +
