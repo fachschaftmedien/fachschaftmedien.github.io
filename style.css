@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    font-size: 2em;
+    background-color: rgb(252,252,252);
+    color: #242325;
+    font-family: Arial, sans-serif;
+}
+
+.page-header{
+    font-family: 'Josefin Sans', sans-serif;
+    border: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 5em;
+}
+
+h1.page-headline{
+    font-size: 3em;
+}
+
+
+.avatar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.avatar img{
+    box-shadow: 0 0 0.2em rgba(20,20,20,0.1);
+}
+
+@media(max-width:767px){
+    .page-header{
+        margin: 1em 0;
+    }
+
+    .avatar{
+        justify-content: center;
+        margin: 2em 0;
+    }
+
+    .avatar img{
+
+    }
+}
+
+.description{
+    margin-bottom: 2em;
+}
+
+
+.card{
+    margin: 1em 0;
+    padding: 0.5em;
+    box-shadow: 0 0 0.2em rgba(20,20,20,0.1);
+}
+
+.card>div{
+    margin-bottom: 1em;
+}
+
+.card>div:last-child{
+    margin-bottom: 0;
+}
+
+.card-header{
+    font-weight: bold;
+}
+
+.card-body{
+
+}
+
+.card-footer{
+    font-size: 0.8em;
+}
+
+.card-footer>.updated{
+    text-align: left;
+}
+
+.card-footer>.url{
+    text-align: right;
+}
+
+@media(max-width:767px){
+    .card{
+        font-size: 0.8em;
+    }
+
+    .card>div, .card-footer>.updated, .card-footer>.url{
+        text-align: center;
+    }
+}
+
+
+footer{
+    margin-top: 10em;
+}
+
+footer>address{
+    font-size: 0.8em;
+}
+
+
+@media(max-width:767px){
+    footer{
+        margin-top: 4em;
+    }
+}

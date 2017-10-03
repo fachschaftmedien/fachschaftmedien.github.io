@@ -1,0 +1,14 @@
+{
+  "name": "fachschaftmedien.github.io",
+  "short_name": "FS@GitHub",
+  "author": "Fachschaft Medien"
+  "start_url": "/index.html",
+  "default_locale": "de",
+  "description": "Fachschaft Medien auf GitHub",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#48b8d0",
+  "manifest_version": 2,
+  "permissions": ["webNavigation"],
+  "version": "1.0"
+}
